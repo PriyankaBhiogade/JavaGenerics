@@ -2,10 +2,11 @@ package com.generic;
 
 public class MaxNum {
 
-    public static Double findMax() {
-        Double a = 10.10;
-        Double b = 20.20;
-        Double c = 20.21;
+public static Character findMax() {
+
+        Character a = 'a';
+        Character b = 'A';
+        Character c = 'b';
 
         if(a.compareTo(b) > 0) {
             System.out.println("max"+a);
@@ -19,5 +20,6 @@ public class MaxNum {
             System.out.println("max"+b);
             return b;
         }
-    }
+
+  }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generic.FindMaxNumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T09:14:39" hostname="admin1-desktop" time="0.004">
+<testsuite name="com.generic.FindMaxNumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-11-28T09:21:14" hostname="admin1-desktop" time="0.004">
   <properties/>
   <testcase name="givenThreeInt_whenProp_ReturnTrue" classname="com.generic.FindMaxNumTest" time="0.004"/>
-  <system-out><![CDATA[max20.21
+  <system-out><![CDATA[maxa
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
