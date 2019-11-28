@@ -1,25 +1,18 @@
 package com.generic;
 
-public class MaxNum {
-
-public static Character findMax() {
-
-        Character a = 'a';
-        Character b = 'A';
-        Character c = 'b';
-
-        if(a.compareTo(b) > 0) {
-            System.out.println("max"+a);
-            return a;
+public class MaxNum<E extends Comparable<E>> {
+        public E findMax(E a, E b, E c) {
+            E max = a;
+            if (b.compareTo(max) > 0) {
+                max = b;
+            }
+            if (c.compareTo(max) > 0) {
+                max = c;
+            }
+            return max;
         }
-        else if( c.compareTo(b) > 0){
-            System.out.println("max"+c);
-            return c;
-        }
-        else {
-            System.out.println("max"+b);
-            return b;
-        }
+    }
 
-  }
-}
+
+
+
