@@ -2,10 +2,10 @@ package com.generic;
 
 public class MaxNum {
 
-    public static Integer findMax() {
-        Integer a = 50;
-        Integer b = 20;
-        Integer c = 30;
+    public static Double findMax() {
+        Double a = 10.10;
+        Double b = 20.20;
+        Double c = 20.21;
 
         if(a.compareTo(b) > 0) {
             System.out.println("max"+a);
