@@ -1,9 +1,5 @@
 package com.generic;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
-
 public class ArrayExample<E> {
     E[] myArray;
 
